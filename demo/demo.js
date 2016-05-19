@@ -29,19 +29,19 @@ app.run(function($transform) {
 // in order to avoid unwanted routing.
 //
 app.config(function($routeProvider) {
-  $routeProvider.when('/',              {templateUrl: 'home.html', reloadOnSearch: false});
-  $routeProvider.when('/scroll',        {templateUrl: 'scroll.html', reloadOnSearch: false});
-  $routeProvider.when('/toggle',        {templateUrl: 'toggle.html', reloadOnSearch: false});
-  $routeProvider.when('/tabs',          {templateUrl: 'tabs.html', reloadOnSearch: false});
-  $routeProvider.when('/accordion',     {templateUrl: 'accordion.html', reloadOnSearch: false});
-  $routeProvider.when('/overlay',       {templateUrl: 'overlay.html', reloadOnSearch: false});
-  $routeProvider.when('/forms',         {templateUrl: 'forms.html', reloadOnSearch: false});
-  $routeProvider.when('/dropdown',      {templateUrl: 'dropdown.html', reloadOnSearch: false});
-  $routeProvider.when('/touch',         {templateUrl: 'touch.html', reloadOnSearch: false});
-  $routeProvider.when('/swipe',         {templateUrl: 'swipe.html', reloadOnSearch: false});
-  $routeProvider.when('/drag',          {templateUrl: 'drag.html', reloadOnSearch: false});
-  $routeProvider.when('/drag2',         {templateUrl: 'drag2.html', reloadOnSearch: false});
-  $routeProvider.when('/carousel',      {templateUrl: 'carousel.html', reloadOnSearch: false});
+  $routeProvider.when('/',              {templateUrl: '/mobile-angular/demo/home.html', reloadOnSearch: false});
+  $routeProvider.when('/scroll',        {templateUrl: '/mobile-angular/demo/scroll.html', reloadOnSearch: false}); 
+  $routeProvider.when('/toggle',        {templateUrl: '/mobile-angular/demo/toggle.html', reloadOnSearch: false}); 
+  $routeProvider.when('/tabs',          {templateUrl: '/mobile-angular/demo/tabs.html', reloadOnSearch: false}); 
+  $routeProvider.when('/accordion',     {templateUrl: '/mobile-angular/demo/accordion.html', reloadOnSearch: false}); 
+  $routeProvider.when('/overlay',       {templateUrl: '/mobile-angular/demo/overlay.html', reloadOnSearch: false}); 
+  $routeProvider.when('/forms',         {templateUrl: '/mobile-angular/demo/forms.html', reloadOnSearch: false});
+  $routeProvider.when('/dropdown',      {templateUrl: '/mobile-angular/demo/dropdown.html', reloadOnSearch: false});
+  $routeProvider.when('/touch',         {templateUrl: '/mobile-angular/demo/touch.html', reloadOnSearch: false});
+  $routeProvider.when('/swipe',         {templateUrl: '/mobile-angular/demo/swipe.html', reloadOnSearch: false});
+  $routeProvider.when('/drag',          {templateUrl: '/mobile-angular/demo/drag.html', reloadOnSearch: false});
+  $routeProvider.when('/drag2',         {templateUrl: '/mobile-angular/demo/drag2.html', reloadOnSearch: false});
+  $routeProvider.when('/carousel',      {templateUrl: '/mobile-angular/demo/carousel.html', reloadOnSearch: false});
 });
 
 //
